@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Users\fabia\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre" version="17.0.4"/>
+    <libraryInfo home="C:\Users\fabia\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047" version="17.0.4"/>
+    <libraryInfo home="C:\Users\fabia\.jdks\corretto-1.8.0_302" version="1.8.0_302">
+        <bootpath>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\resources.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\rt.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\jce.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar"/>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Users\fabia\.jdks\corretto-1.8.0_302\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>

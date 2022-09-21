@@ -1,0 +1,66 @@
+package com.farlau.back.end.dto;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+public class UserDTO {
+	private String nome;
+	private String cpf;
+	private String endereco;
+	private String email;
+	private String telefone;
+	private Date dataCadastro;
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	public Date getDataCadastro() {
+		return dataCadastro;
+	}
+	public void setDataCadastro(Date dataCadastro) {
+		this.dataCadastro = dataCadastro;
+	}
+	
+	public static List<UserDTO> usuarios = new ArrayList<UserDTO>();
+	
+	@PostConstruct
+	public void initializeList() {
+		UserDTO userDTO = new UserDTO();
+		userDTO.setNome("Eduardo");
+		userDTO.setCpf("123.456.789-00");
+		userDTO.setEndereco("Rua Villa Douro");
+		userDTO.setEmail("edu@hotmail.com");
+		userDTO.setTelefone("1234-5678");
+		userDTO.setDataCadastro(new Date());
+	}
+	
+}

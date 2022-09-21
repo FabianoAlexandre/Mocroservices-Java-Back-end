@@ -1,0 +1,21 @@
+package com.farlau.back.end.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.farlau.back.end.dto.UserDTO;
+
+@RestController
+@RequestMapping("/")
+public class UserController {
+	public String getMensagem() {
+		return "Spring boot is working";
+	}
+	@GetMapping("/users")
+	public List<UserDTO> getUsers(){
+		return usuarios;
+	}
+}

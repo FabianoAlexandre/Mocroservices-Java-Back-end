@@ -1,0 +1,5 @@
+package com.farlau.back.end;
+
+public @interface SpringBootAplication {
+
+}

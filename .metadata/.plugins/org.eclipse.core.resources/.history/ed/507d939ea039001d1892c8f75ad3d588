@@ -1,0 +1,6 @@
+package com.farlau.back.end;
+
+@SpringBootAplication
+public class App {
+	
+}
