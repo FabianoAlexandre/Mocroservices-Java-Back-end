@@ -1,0 +1,5 @@
+package com.farlau.back.end.model;
+
+public class User {
+
+}
