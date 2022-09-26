@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Projetos\Back-end-Java-Microsserviços\user-api\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -50,8 +51,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="user-api"/>
+			<item value="product-api"/>
 			<item value="spring-boot-starter-parent"/>
+			<item value="user-api"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

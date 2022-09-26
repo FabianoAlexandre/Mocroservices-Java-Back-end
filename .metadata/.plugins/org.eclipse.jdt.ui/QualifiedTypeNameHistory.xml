@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="com.farlau.back.end.model.User"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="com.farlau.back.end.dto.CategoryDTO"/>
+    <fullyQualifiedTypeName name="com.farlau.back.end.model.Category"/>
 </qualifiedTypeNameHistroy>
