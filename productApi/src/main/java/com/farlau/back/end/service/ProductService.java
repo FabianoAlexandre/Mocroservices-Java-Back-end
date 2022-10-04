@@ -5,11 +5,13 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.farlau.back.end.dto.ProductDTO;
 import com.farlau.back.end.model.Product;
 import com.farlau.back.end.repository.ProductRepository;
 
+@Service
 public class ProductService {
 
 	@Autowired
@@ -38,10 +40,11 @@ public class ProductService {
 		return ProductDTO.convert(product);
 	}
 
-	public void delete(long productId) {
+	public ProductDTO delete(long productId) {
 		Optional<Product> product = productRepository.findById(productId);
 		if (product.isPresent()) {
 			productRepository.delete(product.get());
 		}
+		return null;
 	}
 }
